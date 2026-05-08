@@ -1,9 +1,7 @@
 def rectangle():
-    """Lee base y altura de un rectángulo, calcula e imprime
-    el área y el perímetro.
-    """
-    base = int(input("Base: "))
-    altura = int(input("Altura: "))
+
+    base = int(input())
+    altura = int(input())
 
     area = (base * altura)
     perimetro = (base * 2 + altura * 2)
